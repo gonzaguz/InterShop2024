@@ -122,20 +122,21 @@ header {
     display: block;
 }
 .baner-swiper {
-    width: 100%;
+    width: 384px;
     height: 100%;
+    display: block;
 }
-.baner-swiper .swiper-slide {
-    width: 250px;
-  }
+
 .baner-swiper img {
     border-radius: 7px;
     display: block;
     height: 100%;
     object-fit: cover;
     object-position: top;
+    max-width: 100%;
     width: 100%;
     overflow-clip-margin: content-box;
+    border: 0;
     overflow: clip;
     cursor: pointer;
     
@@ -196,8 +197,8 @@ header {
     width: 90%;
 }
 .produc-swiper img{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
 }
 .produc-swiper .swiper-slide{
@@ -261,9 +262,8 @@ header {
     line-height: 15px;
 }
 .shipping {
-    font-size: 12px;
+    font-size: 10px;
     color: rgb(0, 214, 0);
-    margin-left: 6px;
     width: 103%;
     margin-top: -23px;
     align-items: center;
@@ -319,8 +319,8 @@ header {
 filter: blur(2px);
 }  
 .mySwiper .swiper-slide img {
-max-width: 230px;
-max-height: 120px;
+width: 100px;
+height: 100px;
 margin-left: 4%;
 border-radius: 6px
 }
@@ -409,7 +409,7 @@ border-radius: 6px
     padding-left: 60px;
 }
 .marcascel2 img {
-    width: 100px;
+    width: 80px;
     padding: 20px;
 }
   /* Pie de página */
